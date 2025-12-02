@@ -72,3 +72,14 @@ h1 {
     padding: 10px 0;
     border-bottom: 2px solid #f0f0f0;
 }
+
+.result-count {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+.clear-btn {
+    background: none;
+    color: ;
+}
