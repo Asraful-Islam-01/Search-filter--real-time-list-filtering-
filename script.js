@@ -59,5 +59,17 @@ function filterItems(query) {
     });
 
     // updates the result count display
-    resultsCount.textContent = `{fiteredItems.length}`
+    resultsCount.textContent = `${filteredItems.length} result${
+        filteredItems.length !== 1 ? "s " : ""
+    }`;
+
+    // Clear previous results 
+    itemList.innerHTML = "";
+
+    // Display each filter item with highlighted matches
+    filteredItems.forEach((item) => {
+        const itemDiv = document.createElement("div");
+        itemDiv.className = "item";
+        itemDiv.innerHTML = ``
+    })
 }
